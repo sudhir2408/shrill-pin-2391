@@ -1,0 +1,43 @@
+
+*********Vantage_buses mysql*********
+
+
+create table  Customer
+(
+CusID int auto_increment primary key,
+userName varchar(20) not null unique,
+Password varchar(20) not null,
+FirstName varchar(20) not null,
+LastName varchar(20) not null,
+address varchar(20) not null,
+PhNo varchar(20) not null
+);
+
+
+
+
+create table Bus
+(
+BusNo int primary key,
+BusName varchar(20) not null unique,
+Route_From varchar(20) not null,
+Route_To varchar(20) not null,
+Bus_Type varchar(5) not null,
+Departure DateTime not null,
+Arrival DateTime not null,
+AvailableSeat int not null,
+TotalSeat int not null,
+Cost int not null
+);
+
+
+
+create table Booking
+(
+BookID int auto_increment primary key,
+CusID int not null,
+BusNo int not null,
+SeatFrom int not null,
+SeatTo int not null,
+status int not Null
+);
