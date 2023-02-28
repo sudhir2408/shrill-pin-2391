@@ -51,7 +51,7 @@ public static void AddBus() {
 				System.out.println(result);
 			}
 			else {
-				System.out.println(result );
+				System.out.println(result);
 			}
 		}
 		catch (InputMismatchException e) {

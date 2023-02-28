@@ -16,10 +16,10 @@ public class Util {
 			e.printStackTrace();
 		}
 		
-		String url= "jdbc:mysql://localhost:3306/Vantage_buses";
+		String url= "jdbc:mysql://localhost:3306/vantage_buses";
 		
 		try {
-			conn = DriverManager.getConnection(url, "root", "7298");
+			conn = DriverManager.getConnection(url, "root", "root");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
