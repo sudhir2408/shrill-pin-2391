@@ -24,9 +24,9 @@
 - Provide the Contact persons details after confirmation of the seat
 
 ## ER Diagram:
-# ER_Diagram
 
-![image](C:\Users\USER\Desktop\shrill-pin-2391\Er diagram\ER diagram.jpeg)
+
+![App Screenshot](/Er%20diagram/ER%20diagram.jpeg)
 
 # 
 # Technology used 
